@@ -25,7 +25,7 @@
         </div>
 
         <div>
-            <input type="submit" class="btn btn-primary w-100" value="Register now">
+            <input type="submit" class="btn btn-dark w-100" value="Register now">
         </div>
 
         <div class="text-center my-2">

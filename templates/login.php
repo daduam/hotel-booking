@@ -13,7 +13,7 @@
         </div>
 
         <div>
-            <input type="submit" class="btn btn-primary w-100" value="Login">
+            <input type="submit" class="btn btn-dark w-100" value="Login">
         </div>
 
         <div class="text-center my-2">

@@ -9,6 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/index.css">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <title><?= $title ?></title>
 </head>
 
@@ -49,31 +54,50 @@
   </nav>
   <!-- </div> -->
 
-  <main class="container p-4">
+  <main class="container p-5">
     <?= $output ?>
   </main>
 
-  <footer>
-    <div>
-      <ul>
-        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
-        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-      </ul>
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4">
+      <div class="mb-4">
+        <a href="https://www.youtube.com" target="_blank" class="btn btn-outline-light m-1" role="button">YouTube</a>
+        <a href="https://www.facebook.com" target="_blank" class="btn btn-outline-light m-1" role="button">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank" class="btn btn-outline-light m-1" role="button">Instagram</a>
+        </ul>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h6>LINKS</h6>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="/admin" class="text-white">Admin</a>
+            </li>
+
+            <li>
+              <a href="/" class="text-white">Home</a>
+            </li>
+
+            <li>
+              <a href="/rooms" class="text-white">Rooms</a>
+            </li>
+
+            <li>
+              <a href="/bookings" class="text-white">Bookings</a>
+            </li>
+
+            <li>
+              <a href="/about" class="text-white">Enquiries</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <div>
-      <ul>
-        <li><a href="/admin">Admin</a></li>
-        <li><a href="/">Home</a></li>
-        <li><a href="/rooms">Rooms</a></li>
-        <li><a href="/bookings">Bookings</a></li>
-        <li><a href="/about">Enquiries</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <small>Copyright &copy; RedStone. All rights reserved</small>
+    <div class="p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+      <small>Copyright &copy; Redstone Hotel. All rights reserved</small>
     </div>
   </footer>
 
